@@ -1,0 +1,26 @@
+.price {
+    background: url(../images/balls.png) no-repeat;
+    background-position: center right;
+    &__inner {
+        margin-top: 100px;
+        display: flex;
+    }
+
+    &__on-title,
+    &__off-title {
+        margin-bottom: 50px;
+
+        font-size: 24px;
+        line-height: 28px;
+        font-family: 'RobotoCondensed-Regular';
+    }
+
+    &__on {
+        margin-right: 70px;
+        width: 530px;
+    }
+
+    &__list-item {
+        margin-bottom: 20px;
+    }
+}

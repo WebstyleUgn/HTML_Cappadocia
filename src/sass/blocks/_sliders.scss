@@ -1,0 +1,37 @@
+.fairy__slider {
+    width: 50%;
+    position: relative;
+}
+
+.trip__slider {
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+}
+
+.slick-btn {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    opacity: .5;
+
+    transition: all .3s all;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}
+

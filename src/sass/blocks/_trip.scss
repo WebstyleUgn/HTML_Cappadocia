@@ -1,0 +1,41 @@
+.trip {
+    &__inner {
+        position: relative;
+    }
+
+    &__content {
+        width: 50%;
+        padding-right: 55px;
+    }
+
+    &__container {
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0 15px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &__body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__list {
+        margin: 5px 0;
+        font-size: 24px;
+        line-height: 28px;
+
+        &-item:first-child {
+            margin-bottom: 20px;
+    
+            font-family: 'RobotoCondensed-Regular';
+        }
+    }
+}

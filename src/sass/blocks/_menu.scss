@@ -1,0 +1,15 @@
+.menu__list-item {
+    display: inline;
+
+    font-family: 'RobotoCondensed-Regular';
+    font-size: 24px;
+    line-height: 28px;
+
+    .menu__list-link:hover {
+        text-decoration: underline;
+    }
+    
+    & + & {
+        margin-left: 52px;
+    }
+}

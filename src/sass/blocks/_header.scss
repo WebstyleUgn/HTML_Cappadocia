@@ -1,0 +1,48 @@
+.header {
+    min-height: 100vh;
+    background: url(../images/header-bg.jpg) center (center/cover) no-repeat;
+
+    &__phone {
+        position: relative;
+        padding-left: 40px;
+
+        font-family: 'RobotoCondensed-Regular';
+        font-size: 24px;
+        line-height: 28px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background: url(../icons/phone.svg);
+            width: 30px;
+            height: 30px;
+            left: 0;
+        }
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 72px;
+    }
+
+    &__title {
+        padding-top: 152px;
+
+        font-family: 'balqis';
+        text-align: center;
+        font-size: 250px;
+        font-weight: 300;
+        line-height: 334px;
+        span {
+            display: block;
+            margin-top: -66px;
+            margin-right: 85px;
+
+            font-family: 'RobotoCondensed-LightItalic';
+            text-align: right;
+            font-size: 56px;
+            line-height: 66px;
+        }
+    }
+}
